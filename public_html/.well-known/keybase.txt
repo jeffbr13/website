@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/jeffbr13
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jeffbr13.net
+  * I am jeffbr13 (https://keybase.io/jeffbr13) on keybase.
+  * I have a public key with fingerprint 0669 41B3 7683 41FB 4120  7CEB 32DB C4B7 AEA7 3FB6
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014ba69f1d71795f10d35781b3372dbd01498b5a76c3cb18a67e88013b2726dc450a",
+      "fingerprint": "066941b3768341fb41207ceb32dbc4b7aea73fb6",
+      "host": "keybase.io",
+      "key_id": "32dbc4b7aea73fb6",
+      "kid": "01014ba69f1d71795f10d35781b3372dbd01498b5a76c3cb18a67e88013b2726dc450a",
+      "uid": "606b9d77a6c230b0bbe4a737a41d7c00",
+      "username": "jeffbr13"
+    },
+    "service": {
+      "hostname": "jeffbr13.net",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1509486578,
+  "expire_in": 157680000,
+  "prev": "06b37451851431af41b610f251dcf46c7905ff6176aeffb01c5124fe50f4edd1",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMM9AnicrZJtUFRVHMYXBGIXSN5U6IWBCxkIwj173/aukUOaVIhB4zRDAet9OReu
+C7vb7gVFBM3JccR4EWtihXRy2LEYEVJKmYyBgIGCRswaLNCYSWRtHDQKhV3SzmXq
+S9PHzpcz55zn+Z3//zlnIGSFRufTXneIuP5cSovPSN8HZZq8hbtzlRhvFSswYyVm
+hssTLBGhQzGZZREzYjjAAclzNCsBkQEMS0kAFwmKMQCeIBi9yIvonDXwFMfQAiHw
+wMDRDDQYcEDwekZPiwJJ4RyWgkmypQjabXbZoqhYmmZJhGBoA0ECiSeBHmcEyBOI
+KJA8w0GOISSeRsZiq0N1oOJ4zgFTZSvaQwvTcnn/of+f6y5bxtE4zbMiw3C0oCdw
+Hud5SKIbGY5EeAHHVaED2i1cKUTqnVCSeDsgsKoUDO2WywJUg1U7+Zci1QIV5LXZ
+rYpVsJagk2JFsRlVo1JhU5W7IG/6m2HiZYuIYkSGcmh3yFYLZgRIKSiyCgUUzpIG
+GvWYgsHdNtkOTbKqoFDIOBrqNbB8OXwUPEkBAwVIAnASegga4JKeAqIgkbTAsDgl
+STRgaE4tEwcCBfSkBClcIqEoAkzt6i2LFTPqEVThihDTIRdZOKXMDrGqr/ry/TQ+
+Ok2Av6/6vzQ6beg/v25b28o/w/I3dc5FZT1/emxxf0PMs8SasKlr/QFNGdoVu7I6
+60pDxpzOlzOX/tgTx2Y7b+N3osXJi71Ga/479cOfnc8pr+3gutjZ+KXzL+QNFZz5
+qOdSd33WTz86E6uTIoKmB7fPgfUlI2evXrjz25OfHN9d2LKY1Fg7lrZps+th3dod
+a26t2lLI4WyNX77Ru8fjOq7vHaBTi92K2ZwQP1F8096x6uSOczu3dXdND1EeQdku
+LkVv2fjU47rw4Rlv3oT2WzIunH7isaPfX36wOqh78IBf89758tHFs2/4tnk0vf37
+ergXucT5Y8kF3ivywahwc1r6qNdd+FLUoOfX9GJrepgdq7Z49yfrHfn+TRWvXGlK
+JqbHcxPubvBUrX4Uu9cVyXR6396XmXTbipnu50y13g+MZV8rmHbTrz7zuetjfVBt
+xY2FHtEZv+7gQfdagyc4sGaUKZyO69Ac7W3mUicOnOprz230nddpcwaMoQuRk+6c
+6BnvteCG4ZFvKrUZ7rbSkdkj6x4+GP/C0rK1vXVG1xJxcmWzEjwe+t6JgK6tge9G
+HrOcCgjo/+73bENNTKJt6su6jnvO1F/ev3zoxtezJ8xHPs1ovnjhw4HUiMzqzY2j
+CblPu+6tr9BRyX0Nr7PaEBjbUB8mZf982L/zamnK5Jsbqn/YePqM7tL1gsNdMeda
+hx7dSouNdcXdbPgL0HK9Dg==
+=AgoT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jeffbr13
+
+==================================================================
