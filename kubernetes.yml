@@ -1,0 +1,56 @@
+---
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: website-deployment
+spec:
+  selector:
+    matchLabels:
+      app: website
+  replicas: 1   # tells deployment to run 1 pod matching the template
+  template:   # create pods using pod definition in this template
+    metadata:
+      # unlike pod-nginx.yaml, the name is not included in the meta data as a unique name is
+      # generated from the deployment name
+      labels:
+        app: website
+    spec:
+      containers:
+        - name: website
+          image: jeffbr13/website
+          ports:
+            - containerPort: 80
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: website-service
+spec:
+  selector:
+    app: website
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80  # this doesn't really matter
+
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: website-ingress
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+    - host: jeffbr13.net
+      http:
+        paths:
+          - path:
+            backend:
+              serviceName: website-service
+              servicePort: 80
+  tls:
+    - secretName: website-tls-cert
+      hosts:
+        - jeffbr13.net
